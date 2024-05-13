@@ -9,6 +9,6 @@ body
 }
 fieldset
 {
-	display: none;
+	/*display: none;*/
 	margin-top: 50px;
 }
