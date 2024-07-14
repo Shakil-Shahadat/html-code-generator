@@ -11,10 +11,13 @@
 
 	<div class="container">
 
-		<select class="mt-5 mb-5" onchange="selectElement( this.value )">
-			<option value="a">&lt;a&gt;: The Anchor element</option>
-			<option value="abbr">&lt;abbr&gt;: The Abbreviation element</option>
-		</select>
+		<div class="input-group mt-5 mb-5">
+			<label class="input-group-text" for="">Select Element</label>
+			<select class="form-select" onchange="selectElement( this.value )" id="">
+				<option value="a">&lt;a&gt;: The Anchor element</option>
+				<option value="abbr">&lt;abbr&gt;: The Abbreviation element</option>
+			</select>
+		</div>
 
 		<div class="a">
 
